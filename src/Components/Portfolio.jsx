@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Finance App Design",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Designed the user interface for a finance app using Figma, focusing on creating an intuitive and user-friendly experience. The app includes features for tracking expenses, managing budgets, and monitoring financial goals.",
+    url: "https://www.figma.com/design/NVLjKSeUXfzx6k3DF0bgFa/Finance-app?node-id=0-1&p=f&t=ZhQDf1DxGh3IQdwj-0",
   },
   {
-    title: "Web Development for Beginners",
-    description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+    title: "Relationship Expert Website Design",
+    description:"Designed a modern and user-friendly relationship expert website using UI/UX principles on Figma. The project focused on creating an intuitive layout with a calming color scheme to foster trust and connection. Key features include a sleek homepage, expert bio sections, interactive appointment booking,  and a responsive design for seamless navigation across devices.",
+    url: "https://www.figma.com/proto/rO1nVBT6wessieJU3dXuJ2/Relationship-Expert?node-id=3-3&starting-point-node-id=3%3A3",
   },
   {
-    title: "My Resume Site",
+    title: "Flipkart Clone",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Developed a Flipkart clone using the MERN stack, implementing features like user authentication, product management, and cart functionality to enhance full-stack development skills.",
+    url: "https://github.com/Nisha2703/Flipkart-Clone",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Quiz Platform",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Code a quiz frontend platform using React JS along with mui(material ui) for CSS.",
+    url: "https://github.com/Nisha2703/quiz-platform",
   },
 ];
 
@@ -64,7 +63,7 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{ height: "90%", width: "100%", objectFit: "cover",filter: blur("5px") }}
             alt={imageAltText}
           />
         </div>
