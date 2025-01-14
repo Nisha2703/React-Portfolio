@@ -25,7 +25,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Nisha",
-  title: "Hello! I am Nisha, a UI/UX Designer & Frontend Developer.I enjoy blending creativity with empathetic design to create unique and memorable experiences.",
+  title: "UI/UX Designer & Frontend Developer",
   email: "nishakadian(@gmail.com",
   gitHub: "Nisha2703",
   instagram: "nishakadian_/",
