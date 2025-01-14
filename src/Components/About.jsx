@@ -38,7 +38,7 @@ const skillsList = [
   "HTML",
   "React Js",
   "Figma",
-  "C++",
+  "C++"
 ];
 
 /**

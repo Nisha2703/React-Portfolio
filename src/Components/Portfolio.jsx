@@ -19,6 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
+import image from "../images/design-desk.jpeg";
+
+const imageAltText = "desktop with books and laptop";
 
 /**
  * Project list
@@ -35,7 +38,7 @@ const projectList = [
   },
   {
     title: "Relationship Expert Website Design",
-    description:"Designed a modern and user-friendly relationship expert website using UI/UX principles on Figma.Key features include a sleek homepage, expert bio sections, interactive appointment booking.",
+    description:"Designed a modern and user-friendly relationship expert website using UI/UX principles on Figma. The project focused on creating an intuitive layout with a calming color scheme to foster trust and connection. Key features include a sleek homepage, expert bio sections, interactive appointment booking,  and a responsive design for seamless navigation across devices.",
     url: "https://www.figma.com/proto/rO1nVBT6wessieJU3dXuJ2/Relationship-Expert?node-id=3-3&starting-point-node-id=3%3A3",
   },
   {
@@ -57,8 +60,8 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center", backgroundColor: "beige" }}>
-
+        <div style={{ maxWidth: "40%", alignSelf: "center"}}>
+            <img src={image} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
         </div>
         <div className="container">
           {projectList.map((project) => (
