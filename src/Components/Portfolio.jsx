@@ -38,7 +38,7 @@ const projectList = [
   },
   {
     title: "Relationship Expert Website Design",
-    description:"Designed a modern and user-friendly relationship expert website using UI/UX principles on Figma. The project focused on creating an intuitive layout with a calming color scheme to foster trust and connection. Key features include a sleek homepage, expert bio sections, interactive appointment booking,  and a responsive design for seamless navigation across devices.",
+    description:"Designed a modern and user-friendly relationship expert website using UI/UX principles on Figma.Key features include a sleek homepage, expert bio sections, interactive appointment booking,  and a responsive design for seamless navigation across devices.",
     url: "https://www.figma.com/proto/rO1nVBT6wessieJU3dXuJ2/Relationship-Expert?node-id=3-3&starting-point-node-id=3%3A3",
   },
   {
@@ -61,7 +61,7 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center"}}>
-            <img src={image} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
+            <img src={image} style={{ height: "30rem", width: "30rem" }} alt={imageAltText} />
         </div>
         <div className="container">
           {projectList.map((project) => (
