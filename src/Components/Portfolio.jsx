@@ -35,7 +35,7 @@ const projectList = [
   },
   {
     title: "Relationship Expert Website Design",
-    description:"Designed a modern and user-friendly relationship expert website using UI/UX principles on Figma. The project focused on creating an intuitive layout with a calming color scheme to foster trust and connection. Key features include a sleek homepage, expert bio sections, interactive appointment booking,  and a responsive design for seamless navigation across devices.",
+    description:"Designed a modern and user-friendly relationship expert website using UI/UX principles on Figma.Key features include a sleek homepage, expert bio sections, interactive appointment booking.",
     url: "https://www.figma.com/proto/rO1nVBT6wessieJU3dXuJ2/Relationship-Expert?node-id=3-3&starting-point-node-id=3%3A3",
   },
   {
