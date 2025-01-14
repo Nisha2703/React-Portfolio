@@ -58,10 +58,10 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center"}}>
-            <img src={image} style={{ height: "30rem", width: "30rem" }} alt={imageAltText} />
+            <img src={image} style={{ height: "30rem", width: "32rem" }} alt={imageAltText} />
         </div>
         <div className="container">
           {projectList.map((project) => (
